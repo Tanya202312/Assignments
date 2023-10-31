@@ -8,10 +8,8 @@ def middle(list_B):
     del list_C[0]
     del list_C[-1]
     return list_C
-    
-    
+        
 my_list=[1, 2, 3, 4]
-
 print("My list before call chop function: ", my_list)
 chop(my_list)
 print("My list after call chop function: ", my_list)
